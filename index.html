@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div>
+      <label for="fName">First Name: *</label>
+      <input type="text" name="fName" />
+    </div>
+    <div>
+      <label for="lName">Last Name: *</label>
+      <input type="text" name="lName" />
+    </div>
+    <div>
+      <label for="Email Address">Email Address: *</label>
+      <input type="text" name="Email Address" />
+    </div>
+    <div>
+      <label for="password">Password: *</label>
+      <input type="password" name="password" />
+    </div>
+    <div>
+      <label for="passwordConfirm">Confirm Password: *</label>
+      <input type="password" name="passwordConfirm" />
+    </div>
+    <div>
+      <label for="Birthday">Birthday: </label>
+      <input type="date" name="Birthday" />
+    </div>
+    <div>
+      <p>Gender Identity:</p>
+      <input type="radio" name="Gender Identity" />
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender Identity" />
+      <label for="female">Female</label>
+      <input type="radio" name="Gender Identity" />
+      <label for="nonbinary">Non-binary</label>
+      <input type="radio" name="Gender Identity" />
+      <label for="na">I prefer not to answer</label>
+    </div>
+    <div>
+      <p>A short description about myself:</p>
+      <textarea name="description" cols="50" rows="5"></textarea>
+    </div>
+    <div>
+      <label for="FavoriteLanguage">Favorite Language</label>
+      <select name="FavoriteLanguage">
+        <option value="" selected disabled>Select a language</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+      </select>
+    </div>
+    <div>
+      <input type="checkbox" name="emailupdates" />
+      <label for="checkbox"
+        >Yes, I would like to receive periodic email updates</label
+      >
+    </div>
+    <input type="submit" value="Create Account" />
+    <div><p>* Indicates a required field</p></div>
+  </body>
+</html>
